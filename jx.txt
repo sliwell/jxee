@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 jx
 mqs
 syl
@@ -6,3 +7,6 @@ wish all the best!
 
 so good !
 熟能生巧，天道酬勤！
+=======
+jx
+>>>>>>> parent of 0ca66ee... append some sentence to jx file
