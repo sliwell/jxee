@@ -4,3 +4,5 @@ gxhy2017 i want to work with the github tools.
 
 how to sync the diff project or branch?
 one file to one? or the whole project?
+
+by using, i know that compare the whole project.so good,wow!
