@@ -1,0 +1,10 @@
+The TX FIFO may be flushed by issuing a SFTX command strobe. Similarly, a SFRX command strobe
+will flush the RX FIFO. A SFTX or SFRX command strobe can only be issued in the IDLE,
+TX_FIFO_ERR, or RX_FIFO_ERR states. Both FIFOs are flushed when going to the SLEEP state
+ 
+备注 ：发送和接收FIFO在进入休眠态时会被刷新。
+Note that the radio needs to reach the IDLE state before the SWOR strobe can be issued.
+
+When the MCU has read the packet, it can put the chip back into SLEEP with the SWOR strobe from the IDEL state.
+
+When RX terminates, the chip will always go back to IDEL if eWOR is disabled and back to SLEEP(via IDEL) if eWOR is enabled.
