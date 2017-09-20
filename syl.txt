@@ -1,3 +1,6 @@
 syl file informations
 show the diff
 gxhy2017 i want to work with the github tools.
+
+how to sync the diff project or branch?
+one file to one? or the whole project?
