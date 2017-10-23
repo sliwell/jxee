@@ -6,3 +6,6 @@ TX_FIFO_ERR, or RX_FIFO_ERR states. Both FIFOs are flushed when going to the SLE
 Note that the radio needs to reach the IDLE state before the SWOR strobe can be issued.
 
 When the MCU has read the packet, it can put the chip back into SLEEP with the SWOR strobe from the IDEL state.
+
+When RX terminates, the chip will always go back to IDEL if eWOR is disabled and back to SLEEP(via IDEL) if eWOR is enabled.
+When a packet is successfully transmitted, the radio controller goes to the state indicated by the RFEND_CFG0.TXOFF_MODE setting.

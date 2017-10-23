@@ -1,0 +1,8 @@
+AT+CMGF=[<mode>]
+<mode> 0:PDU mode
+       1:Text mode
+设置短信编码格式
+
+AT+CMGL=4
+List SMS Messages form Preferred Store
+列出当前存储的信息
