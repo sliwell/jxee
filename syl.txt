@@ -8,3 +8,5 @@ one file to one? or the whole project?
 by using, i know that compare the whole project.so good,wow!
 
 20210407 a new testing start.
+
+20210408 add a tip: V0.0.1
