@@ -12,3 +12,10 @@ List SMS Messages form Preferred Store
 2. 新来的短信好比住客，房间卡号的发放从1-64开始找到第一个空闲房间号
 示例：比如SIM卡中已存在1-4的4条短信，新来的下一个短信的索引号为5；如果删除了短息2以后，再次新
 接收到的短信号为2.
+
+
+APN
+移动卡：CMIOT、CMNET、CMMET
+电信卡：CTNET
+联通卡：3GNET、WONET、GMTDS
+
