@@ -23,7 +23,7 @@ git remote add origin git@github.com:sliwell/jxee.git
 
 5. 查看本地库状态
 git status
-说明：当前是否有文件更改等等
+说明：当前是否有文件更改等等, 增加-s选项则以简短信息输出
 
 6. 查看变更
 git diff
