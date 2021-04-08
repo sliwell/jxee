@@ -1,2 +1,65 @@
-1. git fetch
+Git常用命令
+
+1. 查看用户信息
+git config user.name
+git config user.email
+git config user.password
+
+2. 创建本地库
+git init
+
+3. 查看远程库地址
+git remote -v
+
+语法:
+git remote add "自定义的名字  仓库地址"
+git remote 查询远程库别名
+
+4. 克隆远程Github库（https）
+ git clone git://github.com/sliwell/jxee.git
+
+5.关联本地和远程库
+git remote add origin git@github.com:sliwell/jxee.git
+
+5. 查看本地库状态
+git status
+说明：当前是否有文件更改等等
+
+6. 查看变更
+git diff
+
+7. 将暂存区内容提交至本地库
+git commit -m “更改说明”
+
+7. 创建SSH公钥
+ssh-keygen -o
+
+备注：访问密码是123
+
+8. 推送远程仓库
+git push -u origin master
+
+
+《版本管理》
+
+1. 回退到上一个版本
+git reset --hard HEAD^
+git reset --hard HEAD^^(回退到上上个版本） 
+
+2. 回退到指定版本
+git reset --hard caa76a6
+说明：版本号caa76a6没必要写全，前几位就可以，但不能只写前2位，因为Git无法确定具体版本
+
+3. 查询操作记录
+git reflog
+说明：记录你的每一次命令
+
+4. git fetch
 说明：用于从远程库获取代码，该命令执行后需要执行git merge把远程分支合并至当前所在分支。
+
+
+《推送流程》
+1. git add filenames...
+2. git commit -m "更改注释"
+3. git pull
+4. git push -u origin master
