@@ -1,6 +1,6 @@
 复制一行 : Ctrl+K
 粘贴一行 : Ctrl+P
-
+剪切一行 ：Ctrl+U
 
 选择一个单词 : Shift+F5
 
