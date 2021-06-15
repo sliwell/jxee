@@ -39,6 +39,10 @@ ssh-keygen -o
 8. 推送远程仓库
 git push -u origin master
 
+9. 设置HTTP代理及取消代理
+git config --global http.proxy http://127.0.0.1:8080
+git config --global --unset http.proxy
+
 
 《版本管理》
 
