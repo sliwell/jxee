@@ -127,6 +127,6 @@ git reset是直接删除指定的commit，而revert是用新的commit来回滚�
 [diff]
 	tool = bc3
 [difftool]
-	prompt = false
+	prompt = fatedlse
 [difftool "bc3"]
 	cmd = \"C:/Program Files (x86)/Beyond Compare 3/BComp.exe\" \"$LOCAL\" \"$REMOTE\"
