@@ -121,7 +121,6 @@ git reset是直接删除指定的commit，而revert是用新的commit来回滚�
 （2）如果日后现有分支和历史分支需要合并的时候，reset恢复部分的代码依然会出现在历史分支里，但是revert提交的commit并不会出现在历史分支里。
 （3）reset是在正常的commit历史中，删除了指定的commit，这时HEAD是向后移动了，而revert是在正常的commit历史中再commit一次，只不过是反向提交，他的HEAD是一直向前的
 
-<<<<<<< HEAD
 《Git冲突解决-Beyond Compare3》
 在git的配置路径如下：C:/Users/32648/.gitconfig
 
@@ -134,4 +133,4 @@ git reset是直接删除指定的commit，而revert是用新的commit来回滚�
 =======
 9. 《测试主分支合并》
 tips：仅用于测试
->>>>>>> gx
+
