@@ -45,7 +45,8 @@ git config --global --unset http.proxy
 
 《分支管理》
 1. git switch -c
-
+切换到指定的分支。工作树和索引将更新以匹配分支。所有新的提交都将添加到该分支的尖端中。
+备注：git checkout在分支切换和新建分支的时候与switch和branch -b相同，但无法达到branch delete删除分支的功能。
 
 《版本管理》
 
